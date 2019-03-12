@@ -1,6 +1,6 @@
 # Letter-Safe Docker
 
-## Instalation
+## Installation
 
 ```cmd
 docker-compose build

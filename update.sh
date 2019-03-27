@@ -7,4 +7,6 @@ echo 'update composer...';
 sudo docker-compose exec lettersafe php ../composer.phar update
 echo 'update db';
 sudo docker-compose exec lettersafe php yii migrate --interactive=0
+sudo docker-compose stop lettersafe
+sudo docker-compose stop db
 echo 'update complete';
